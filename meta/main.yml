@@ -1,0 +1,10 @@
+galaxy_info:
+  author: Maros Scislak
+  description: "Install and configure dnsmasq"
+  license: BSD-3-Clause
+  min_ansible_version: 2.4
+  galaxy_tags:
+    - dns
+    - dnsmasq
+
+dependencies: []
