@@ -1,0 +1,6 @@
+---
+- name: Check distribution compatibility
+  fail:
+    msg: "{{ ansible_distribution }} is not currently supported by this role."
+  when:
+    - ansible_distribution not in ['Debian']
