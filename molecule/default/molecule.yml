@@ -8,6 +8,7 @@ lint:
 platforms:
   - name: debian9
     image: debian:9
+    privileged: true
 provisioner:
   name: ansible
   lint:
