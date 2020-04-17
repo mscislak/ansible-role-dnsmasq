@@ -9,7 +9,7 @@ before_install:
   - sudo apt-get -qq update
 
 install:
-  - pip install molecule docker ansible-lint
+  - pip install molecule docker ansible-lint flake8
 
 script:
   - molecule test
